@@ -17,14 +17,14 @@ Python is all about *getting things done*. We're going to use modern tools to ma
 ### [Python 3.6.0+](https://www.python.org/downloads/)
 This install contains the Python interpreter, pip package manager, and more. It's what actually allows you to run 
 Python code on your system.
-1) Go to the following link https://www.python.org/downloads/
-2) Click on the button "Download Python 3.6.0". (if there is a Python 3.x version higher than 3.6, select that)
-3) Run the installer. If you don't have admin privileges (e.g. at work), un-check "Install launcher for all users
+1. Go to the following link https://www.python.org/downloads/
+2. Click on the button "Download Python 3.6.0". (if there is a Python 3.x version higher than 3.6, select that)
+3. Run the installer. If you don't have admin privileges (e.g. at work), un-check "Install launcher for all users
 (recommended)".
-4) Check "Add Python 3.6 to PATH"
-5) Click "Install Now". You may click "Customize installation" if you want to change Python's install location.
-6) Open powershell (or command prompt, or if you're on another platform, terminal)
-7) Type python. If you see something like the following, you installed correctly!
+4. Check "Add Python 3.6 to PATH"
+5. Click "Install Now". You may click "Customize installation" if you want to change Python's install location.
+6. Open powershell (or command prompt, or if you're on another platform, terminal)
+7. Type python. If you see something like the following, you installed correctly!
 ```bash
 Microsoft Windows [Version 10.0.14393]
 (c) 2016 Microsoft Corporation. All rights reserved.
@@ -41,21 +41,21 @@ use!), and feature-rich Integrated Development Environment, or IDE, for Python. 
 teach Python, we're going to use the latest and greatest industry proven tools in order to maximize our productivity.
 (If you use other JetBrains products, consider downloading the 
 [Jetbrains Toolbox App](https://www.jetbrains.com/toolbox/app/). If you aren't sure, you don't need to worry about it.)
-1) Go to the following link https://www.jetbrains.com/pycharm/download/
-2) Click the "Download" button located under "Community".
-3) Run the installer. The default settings should be fine.
-4) Run Pycharm. I recommend selecting the "darcula" theme.
-5) Create a new project named "hello"
-6) Click the gray square in the bottom left. You should see side-bar and bottom-bar tabs 
+1. Go to the following link https://www.jetbrains.com/pycharm/download/
+2. Click the "Download" button located under "Community".
+3. Run the installer. The default settings should be fine.
+4. Run Pycharm. I recommend selecting the "darcula" theme.
+5. Create a new project named "hello"
+6. Click the gray square in the bottom left. You should see side-bar and bottom-bar tabs 
 (e.g. 1: Project, 7: Structure on the left and 4: Run, 6: TODO, Python Console, and Terminal on the bottom)
-7) In the Project tab on the left pane, right click the folder "hello", Select "new", "Python file". Name this file 
+7. In the Project tab on the left pane, right click the folder "hello", Select "new", "Python file". Name this file 
 "hello.py"
-8) Type the following into the editor:
+8. Type the following into the editor:
 ```python
 print('hello world!')
 ```
-9) Right-click the editor and click "Run hello". You should see the text "hello world!" appear in the bottom "Run" tab.
-10) (Optional) If you're on Windows, navigate to "File->Settings->Tools->Terminal->Application settings->Shell path"
+9. Right-click the editor and click "Run hello". You should see the text "hello world!" appear in the bottom "Run" tab.
+10. (Optional) If you're on Windows, navigate to "File->Settings->Tools->Terminal->Application settings->Shell path"
 and replace "cmd.exe" with "powershell.exe"
 
 ### [Automate the Boring Stuff with Python](http://automatetheboringstuff.com/#toc)
@@ -63,27 +63,27 @@ This isn't something to install, but a "textbook" we will loosely follow. It's a
 online at http://automatetheboringstuff.com/#toc
 
 # Running Python from the Command Line
-1) Open Powershell, Command Prompt, Bash, or you other Terminal Emulator of choice.
-2) Type the following line. Congrats, you have entered the Python shell. You can type Python scripts line by line here.
+1. Open Powershell, Command Prompt, Bash, or you other Terminal Emulator of choice.
+2. Type the following line. Congrats, you have entered the Python shell. You can type Python scripts line by line here.
 ```bash
 python
 ```
-3) Type the following line. Neat, you've executed some real Python. You can even declare variables and classes!
+3. Type the following line. Neat, you've executed some real Python. You can even declare variables and classes!
 But more on that later.
 ```bash
 print('hello')
 ```
-4) Exit by typing the following:
+4. Exit by typing the following:
 ```bash
 exit()
 ```
-5) In your favorite text editor, create a new file called "hello.py"
-6) Type the following into your "hello.py" script:
+5. In your favorite text editor, create a new file called "hello.py"
+6. Type the following into your "hello.py" script:
 ```bash
 print('hello')
 ```
-7) In your terminal, change directories to folder containing hello.py
-8) Type the following:
+7. In your terminal, change directories to folder containing hello.py
+8. Type the following:
 ```bash
 python hello.py
 ```
