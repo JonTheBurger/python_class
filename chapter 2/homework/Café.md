@@ -2,11 +2,11 @@
 In this assignment, you will be designing an ordering system for a Café. You will first input the customer's name and 
 the amount of money they have in their Café Account. Then they can choose to order an item and quantity. They can 
 continue ordering in this manner as long as they wish, provided they have enough money. The menu is as follows:
-Coffee - $1.29
-Smoothie - $3.29
-Panini - $4.48
-Tax in this location is 6%. It is not included in the prices above. Store the Tax in your program as a constant and 
-apply it to the base prices. Your program's output may look something like this:
+- Coffee - $1.29
+- Smoothie - $3.29
+- Panini - $4.48
+
+Tax in this location is 6%. It is not included in the prices above. Your program's output may look something like this:
 
 ```bash
 Welcome to the Café! What is your name?
