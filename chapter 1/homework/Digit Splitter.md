@@ -1,4 +1,4 @@
-# Homework: Digit Splitter
+# Homework 1: Digit Splitter
 This assignment is a challenging brain teaser. Don't worry if you struggle.
 
 Write a program that gets a single 5 digit integer from a user. The program should print each digit of that integer 

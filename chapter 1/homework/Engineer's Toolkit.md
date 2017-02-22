@@ -1,4 +1,4 @@
-# Homework: Engineer's Toolkit
+# Homework 2: Engineer's Toolkit
 We're going to create a program that will allow an engineer to calculate the results of a number of equations. 
 Specifically, the 4 kinematic equations for constant acceleration. Your program should have a menu that allows the user 
 to choose between the kinematic equations.
