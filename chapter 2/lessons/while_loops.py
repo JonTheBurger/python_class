@@ -10,3 +10,14 @@ while len(inputs) < 5:
     # inputs.append(x)  # We can also append this way
 
 print(inputs)
+
+iterations = 1
+# This will loop forever
+while True:
+    y = input('Type "stop" to quit')
+    # This is a compound addition. It is equivalent of writing iterations = iterations + 1
+    iterations += 1     # Compound operators exist for most mathematical operations (e.g. -= *= /= %= **= etc.)
+    if y == 'stop':
+        break           # The "break" statement will exit the inner-most loop containing it
+
+print('iterations run: ' + iterations)

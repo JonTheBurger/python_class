@@ -2,7 +2,12 @@
 
 x = int(input('x: '))
 
-remainder = x % 2
+if x < 0:
+    print('x is negative')
+elif x > 0:
+    print('x is positive')
+else:
+    pass    # The 'pass' statement lets us do nothing within a control structure.
 
 """
     We can make the following numerical comparisons:
@@ -13,8 +18,9 @@ remainder = x % 2
     >  greater than
     <  less than
 """
-
 # If statements are used to conditionally execute code based on a boolean expression.
+
+remainder = x % 2
 if remainder == 0:
     print('x is even')
 else:
