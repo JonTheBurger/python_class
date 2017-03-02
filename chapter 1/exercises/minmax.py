@@ -6,13 +6,13 @@ y = int(input('y: '))
 z = int(input('z: '))
 
 smallest = x
-if y < x:
+if y < smallest:
     smallest = y
 if z < smallest:
     smallest = z
 
 biggest = x
-if y > x:
+if y > biggest:
     biggest = y
 if z > biggest:
     biggest = z
