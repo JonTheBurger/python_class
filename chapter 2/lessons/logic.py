@@ -9,6 +9,9 @@ AND | T | F |
  OR | T | F |
   T | T | T |
   F | T | F |
+ 
+ NOT | T | F |
+     | F | T |  
 """
 
 print(True and True)

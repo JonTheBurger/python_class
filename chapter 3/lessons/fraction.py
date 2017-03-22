@@ -5,6 +5,7 @@ from fractions import Fraction
 f = Fraction(1, 2)
 g = Fraction(-1, 6)
 h = Fraction(3, 9)      # Python simplifies us for us
+# _normalize=False disables simplifying
 
 print(f)
 print(g)

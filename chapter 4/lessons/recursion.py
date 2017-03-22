@@ -1,5 +1,6 @@
 # Lesson 1
 
+
 def iterative_factorial(n):
     result = 1
     for i in range(1, n + 1):
@@ -16,5 +17,6 @@ def factorial(n):
         return n * factorial(n - 1)
     else:   # Recursive functions generally have a "base case", from which they stop recursing.
         return 1
+# NOTE: It's helpful to draw out the "frames" of each function call
 
 print(factorial(5))
