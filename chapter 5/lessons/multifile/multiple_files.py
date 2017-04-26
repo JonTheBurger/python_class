@@ -1,5 +1,5 @@
 # Lesson 6
 # mymodule is a directory containing a file __init__.py
-from mymodule import greeting
+import mymodule.greeting
 
-greeting.greet()
+mymodule.greeting.greet()
